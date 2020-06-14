@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/geoloc-weather/precache-manifest.d54b748828c16ff8b4cea3e00893072e.js"
+  "/geoloc-weather/precache-manifest.c2c80550fbfdd92b38d55dc35c2b90b5.js"
 );
 
 self.addEventListener('message', (event) => {

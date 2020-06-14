@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/geoloc-weather/static/css/main.5a41fc1f.chunk.css",
-    "main.js": "/geoloc-weather/static/js/main.6a067b7f.chunk.js",
-    "main.js.map": "/geoloc-weather/static/js/main.6a067b7f.chunk.js.map",
+    "main.css": "/geoloc-weather/static/css/main.f042e79e.chunk.css",
+    "main.js": "/geoloc-weather/static/js/main.eabc717a.chunk.js",
+    "main.js.map": "/geoloc-weather/static/js/main.eabc717a.chunk.js.map",
     "runtime-main.js": "/geoloc-weather/static/js/runtime-main.02c19216.js",
     "runtime-main.js.map": "/geoloc-weather/static/js/runtime-main.02c19216.js.map",
     "static/js/2.e857a365.chunk.js": "/geoloc-weather/static/js/2.e857a365.chunk.js",
     "static/js/2.e857a365.chunk.js.map": "/geoloc-weather/static/js/2.e857a365.chunk.js.map",
     "index.html": "/geoloc-weather/index.html",
-    "precache-manifest.d54b748828c16ff8b4cea3e00893072e.js": "/geoloc-weather/precache-manifest.d54b748828c16ff8b4cea3e00893072e.js",
+    "precache-manifest.c2c80550fbfdd92b38d55dc35c2b90b5.js": "/geoloc-weather/precache-manifest.c2c80550fbfdd92b38d55dc35c2b90b5.js",
     "service-worker.js": "/geoloc-weather/service-worker.js",
-    "static/css/main.5a41fc1f.chunk.css.map": "/geoloc-weather/static/css/main.5a41fc1f.chunk.css.map",
+    "static/css/main.f042e79e.chunk.css.map": "/geoloc-weather/static/css/main.f042e79e.chunk.css.map",
     "static/js/2.e857a365.chunk.js.LICENSE.txt": "/geoloc-weather/static/js/2.e857a365.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.02c19216.js",
     "static/js/2.e857a365.chunk.js",
-    "static/css/main.5a41fc1f.chunk.css",
-    "static/js/main.6a067b7f.chunk.js"
+    "static/css/main.f042e79e.chunk.css",
+    "static/js/main.eabc717a.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "95e75d74078620521ff0ecc2f6dfccd5",
+    "revision": "c989bde086f2ad0e5098f513dcff23f2",
     "url": "/geoloc-weather/index.html"
   },
   {
-    "revision": "7ad510d157275cdabd64",
-    "url": "/geoloc-weather/static/css/main.5a41fc1f.chunk.css"
+    "revision": "7243d5961c4ab6acdd7a",
+    "url": "/geoloc-weather/static/css/main.f042e79e.chunk.css"
   },
   {
     "revision": "1a872173b2ff33e95b90",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/geoloc-weather/static/js/2.e857a365.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ad510d157275cdabd64",
-    "url": "/geoloc-weather/static/js/main.6a067b7f.chunk.js"
+    "revision": "7243d5961c4ab6acdd7a",
+    "url": "/geoloc-weather/static/js/main.eabc717a.chunk.js"
   },
   {
     "revision": "ee24ef8b9ff035508e96",

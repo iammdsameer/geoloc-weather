@@ -1,0 +1,2 @@
+.season{display:flex;justify-content:center;align-items:center;height:100vh}.season .icon{position:absolute}.left-icon{top:.5em;left:.5em}.right-icon{bottom:.5em;right:.5em}.season.winter{background-color:#f0f8ff}.season.summer{background-color:orange}.winter .icon{color:#5ba3a3}.summer .icon{color:red}
+/*# sourceMappingURL=main.f042e79e.chunk.css.map */
