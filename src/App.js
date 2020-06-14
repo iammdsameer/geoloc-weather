@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Season from "./Season";
+import Loader from "./Loader";
+import Error from "./Error";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    lat: null,
+    err: "",
+  };
+
+  componentDidMount() {
+    window.navigator.geolocation.getCurrentPosition(
+      (position) => this.setState({ lat: position.coords.latitude }),
+      (err) => this.setState({ err: err.message })
+    );
+  }
+
+  render() {
+    if (!this.state.err && this.state.lat) {
+      return <Season lat={this.state.lat} />;
+    } else if (!this.state.lat && this.state.err) {
+      return <Error />;
+    }
+    return <Loader text="Accept Location Prompt and Continue.." />;
+  }
 }
 
 export default App;
